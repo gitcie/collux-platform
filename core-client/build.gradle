@@ -1,0 +1,33 @@
+plugins {
+    id 'java'
+}
+
+sourceSets {
+    main {
+        java {
+            srcDirs = ["src/main/kotlin"]
+        }
+    }
+}
+
+sourceCompatibility = '8'
+
+dependencies {
+    implementation project(':collux-core')
+}
+
+test {
+    useJUnitPlatform()
+}
+
+compileKotlin {
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
+}
+
+compileTestKotlin {
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
+}

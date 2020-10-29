@@ -1,0 +1,19 @@
+project:
+  version: 0.0.1
+
+spring:
+  application:
+    name: Collux微服务平台核心库
+
+server:
+  port: 5656
+  servlet:
+    context-path: /collux
+
+swagger:
+  docket:
+    enable: true
+    basePackage: com.collux.platform
+  api:
+    title: Collux微服务平台客户端
+    description: 只做库调试用

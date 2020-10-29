@@ -1,0 +1,40 @@
+{
+    "groups": [
+        {
+            "name": "swagger",
+            "type": "com.collux.platform.swagger.SwaggerProperties",
+            "sourceType": "com.collux.platform.swagger.SwaggerProperties"
+        }
+    ],
+    "properties": [
+        {
+            "name": "project.version",
+            "type": "java.lang.String",
+            "description": "Description for project.version."
+        },
+
+        {
+            "name": "swagger.docket.enable",
+            "type": "java.lang.Boolean",
+            "description": "是否启用Swagger"
+        },
+
+        {
+            "name": "swagger.docket.basePackage",
+            "type": "java.lang.String",
+            "description": "指定Swagger扫描接口的包名"
+        },
+
+        {
+            "name": "swagger.api.title",
+            "type": "java.lang.String",
+            "description": "API标题"
+        },
+
+        {
+            "name": "swagger.api.description",
+            "type": "java.lang.String",
+            "description": "API描述"
+        }
+    ]
+}

@@ -1,0 +1,6 @@
+rootProject.name = 'collux-core'
+
+include ':collux-core'
+include ':core-client'
+include ':collux-polestar'
+include ':collux-service-register'

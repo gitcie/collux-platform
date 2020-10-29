@@ -1,0 +1,3 @@
+spring:
+  application:
+    name: 微服务平台核心库

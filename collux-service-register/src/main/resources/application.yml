@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: collux-service-register
+  profiles:
+    active: peer1
